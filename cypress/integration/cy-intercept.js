@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 describe("page", () => {
   it("works", () => {
-    cy.visit("https://csb-gl5xj.netlify.app/");
+    cy.visit("https://csb-gl5xj-g6j2kdska.vercel.app/");
     cy.intercept("**/sessions", {
       body: { success: true },
       headers: {

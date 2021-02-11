@@ -4,7 +4,7 @@ describe("page", () => {
     cy.server();
   });
   it("works", () => {
-    cy.visit("https://csb-gl5xj.netlify.app/");
+    cy.visit("https://csb-gl5xj-g6j2kdska.vercel.app/");
     cy.route({
       method: "POST",
       url: "**/sessions",
